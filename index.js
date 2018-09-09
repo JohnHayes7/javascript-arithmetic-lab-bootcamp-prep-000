@@ -23,8 +23,8 @@ function dec (a) {
 }
 
 function makeInt(n, base){
-  parseInt(n, 10);
-  if (n * 0) { return 0 }
+  var number = parseInt(n, 10);
+  if (number * 0) { return 0 }
   return n
 }
 
