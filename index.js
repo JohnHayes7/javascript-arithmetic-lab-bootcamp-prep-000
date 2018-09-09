@@ -23,7 +23,7 @@ function dec (a) {
 }
 
 function makeInt(n){
-  var number = parseInt(n, 10);
+  parseInt(n, 10);
   if (number * 0){
     return 0
   }
