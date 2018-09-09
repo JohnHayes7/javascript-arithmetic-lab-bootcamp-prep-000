@@ -24,7 +24,11 @@ function dec (a) {
 
 function makeInt(n, base){
   parseInt(n, 10);
-  return n
+  return n;
+}
+  if (n * 0);{
+    
+  }
 }
 
 function preserveDecimal (n){
