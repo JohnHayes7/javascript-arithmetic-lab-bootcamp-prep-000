@@ -24,7 +24,7 @@ function dec (a) {
 
 function makeInt(n){
   var number = parseInt(n, 10);
-  if (number )
+  if (number * 0)
 }  
 
 function preserveDecimal (n){
