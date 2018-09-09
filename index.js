@@ -24,9 +24,11 @@ function dec (a) {
 
 function makeInt(n){
   var number = parseInt(n, 10);
-  if (number * 0)
+  if (number * 0){
+    return 0
+  }
 }  
-
+}
 function preserveDecimal (n){
   parseFloat(n);
 }
